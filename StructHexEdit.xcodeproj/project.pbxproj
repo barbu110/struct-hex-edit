@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570934862200FF1900266FBC /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570934852200FF1900266FBC /* Notifications.swift */; };
 		57D5FA402200CB9900B61FAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5FA3F2200CB9900B61FAF /* AppDelegate.swift */; };
 		57D5FA422200CB9900B61FAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5FA412200CB9900B61FAF /* ViewController.swift */; };
 		57D5FA442200CB9A00B61FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D5FA432200CB9A00B61FAF /* Assets.xcassets */; };
 		57D5FA472200CB9A00B61FAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D5FA452200CB9A00B61FAF /* Main.storyboard */; };
+		57D5FA592200F28200B61FAF /* StructureNamePickerWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D5FA572200F28200B61FAF /* StructureNamePickerWindowController.swift */; };
+		57D5FA5A2200F28200B61FAF /* StructureNamePickerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57D5FA582200F28200B61FAF /* StructureNamePickerWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570934852200FF1900266FBC /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		57D5FA3C2200CB9900B61FAF /* StructHexEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructHexEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D5FA3F2200CB9900B61FAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D5FA412200CB9900B61FAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +25,8 @@
 		57D5FA462200CB9A00B61FAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57D5FA482200CB9A00B61FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D5FA492200CB9A00B61FAF /* StructHexEdit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StructHexEdit.entitlements; sourceTree = "<group>"; };
+		57D5FA572200F28200B61FAF /* StructureNamePickerWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructureNamePickerWindowController.swift; sourceTree = "<group>"; };
+		57D5FA582200F28200B61FAF /* StructureNamePickerWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StructureNamePickerWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570934892201054E00266FBC /* StructNamePicker */ = {
+			isa = PBXGroup;
+			children = (
+				57D5FA572200F28200B61FAF /* StructureNamePickerWindowController.swift */,
+				57D5FA582200F28200B61FAF /* StructureNamePickerWindowController.xib */,
+			);
+			path = StructNamePicker;
+			sourceTree = "<group>";
+		};
 		57D5FA332200CB9900B61FAF = {
 			isa = PBXGroup;
 			children = (
@@ -57,8 +72,10 @@
 				57D5FA412200CB9900B61FAF /* ViewController.swift */,
 				57D5FA432200CB9A00B61FAF /* Assets.xcassets */,
 				57D5FA452200CB9A00B61FAF /* Main.storyboard */,
+				570934892201054E00266FBC /* StructNamePicker */,
 				57D5FA482200CB9A00B61FAF /* Info.plist */,
 				57D5FA492200CB9A00B61FAF /* StructHexEdit.entitlements */,
+				570934852200FF1900266FBC /* Notifications.swift */,
 			);
 			path = StructHexEdit;
 			sourceTree = "<group>";
@@ -122,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D5FA442200CB9A00B61FAF /* Assets.xcassets in Resources */,
+				57D5FA5A2200F28200B61FAF /* StructureNamePickerWindowController.xib in Resources */,
 				57D5FA472200CB9A00B61FAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570934862200FF1900266FBC /* Notifications.swift in Sources */,
 				57D5FA422200CB9900B61FAF /* ViewController.swift in Sources */,
 				57D5FA402200CB9900B61FAF /* AppDelegate.swift in Sources */,
+				57D5FA592200F28200B61FAF /* StructureNamePickerWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
